@@ -86,15 +86,17 @@ body {
     padding: 1rem;
     border-radius: 0.25rem;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
 }
 
 .weather-details {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
 }
 
