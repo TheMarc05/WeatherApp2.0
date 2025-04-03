@@ -4,8 +4,8 @@ import './style.css';
 function SearchSection() {
     return (
         <div className="search-section">
-            <div class="sidebar">
-                <form id="cityForm" class="city-form">
+            <div className="sidebar">
+                <form id="cityForm" className="city-form">
                     <label for="city">Enter the city</label>
                     <input
                         id="city"
@@ -13,12 +13,12 @@ function SearchSection() {
                         placeholder="Cugir, Timisoara..."
                         required
                     />
-                    <button id="searchBtn" class="btn btnSeach">Search</button>
+                    <button id="searchBtn" className="btn btnSeach">Search</button>
                 </form>
-                <div class="separator">
-                    <span class="separator-text">or</span>
+                <div className="separator">
+                    <span className="separator-text">or</span>
                 </div>
-                <button id="locationBtn" class="btn btnLocation">
+                <button id="locationBtn" className="btn btnLocation">
                     Use current location
                 </button>
             </div>
