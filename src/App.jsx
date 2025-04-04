@@ -19,7 +19,7 @@ const App = () => {
             const data = await response.json();
             const weather = data.current;
             console.log(data);
-            const weatherIcon = Object.keys(weatherCodes).find((icon) => weatherCodes[icon].includes(data.current.condition.code));
+            const weatherIcon = data.current.condition.icon;//Object.keys(weatherCodes).find((icon) => weatherCodes[icon].includes(data.current.condition.code));
             const date = data.current.last_updated;
             const currentWeather ={
                 city: data.location.name,

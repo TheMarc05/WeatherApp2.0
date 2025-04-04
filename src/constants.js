@@ -2,7 +2,8 @@
 // Each key represents a weather type, with an array of codes from the weather API.
 export const weatherCodes = {
   clear: [1000],
-  clouds: [1003, 1006, 1009],
+  clouds: [1003, 1006],
+  cloudy_night: [1009],
   mist: [1030, 1135, 1147],
   rain: [
     1063, 1150, 1153, 1168, 1171, 1180, 1183, 1198, 1201, 1240, 1243, 1246,
