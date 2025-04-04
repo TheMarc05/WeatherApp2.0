@@ -109,8 +109,11 @@ body {
 }
 
 .weather-panel.today {
-    color: #fff;
-    background-color: #263561;
+    color: #3859d3;
+    background-image: url("C://Users/puica/Desktop/react/WeatherApp2.0/public/clouds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 2rem;
 }
 
